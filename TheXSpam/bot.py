@@ -11,21 +11,21 @@ from pyrogram import Client, filters
 from pyrogram.types import Message
 
 
-ALT = f"""❖ 𝐏𝐘 𝐀𝐋𝐓𝐑𝐎𝐍 ❖
+ALT = f"""❖ RAGHAV OP ❖
 
 ➠ **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `3.11.1`
 ➠ **ᴘʏʀᴏ ᴠᴇʀsɪᴏɴ** : `1.4.16`
 ➠ **xꜱᴘᴀᴍ ᴠᴇʀsɪᴏɴ**  : `3.3`
-➠ **ᴜᴘᴅᴀᴛᴇꜱ** : @TheAltron\n"""
+➠ **ᴜᴘᴅᴀᴛᴇꜱ** : @raghavsupport\n"""
 
 
 @Client.on_message(filters.user(SUDO_USERS) & filters.command(["ping"], ["/", ".", "!"]))
 async def ping(_, e: Message):       
       start = datetime.datetime.now()
-      Fuk = await e.reply("**Pong !!**")
+      Fuk = await e.reply("**Pong RAGHAV BABY I'M HERE!!**")
       end = datetime.datetime.now()
       ms = (end-start).microseconds / 1000
-      await Fuk.edit_text(f"◇ ᴛʜᴇ ᴀʟᴛʀᴏɴ\n◇ ᴘɪɴɢ: `{ms}ms`\n◇ ᴠᴇʀsɪᴏɴ: `3.3`")
+      await Fuk.edit_text(f"◇ ᴛʜᴇ RAGHAV_OP\n◇ ᴘɪɴɢ: `{ms}ms`\n◇ ᴠᴇʀsɪᴏɴ: `3.3`")
 
 
 @Client.on_message(filters.user(SUDO_USERS) & filters.command(["alive"], ["/", ".", "!"]))
@@ -40,5 +40,5 @@ async def alive(xspam: Client, msg: Message):
 async def restart_bot(_, message: Message):
     msg = await message.reply("`ʀᴇsᴛᴀʀᴛɪɴɢ ʙᴏᴛ...`")
     args = [sys.executable, "main.py"]
-    await msg.edit("» ʙᴏᴛ ʀᴇsᴛᴀʀᴛᴇᴅ...\n» ɴᴏᴡ ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ʙᴏᴛ ᴀғᴛᴇʀ 𝟷 ᴍɪɴᴜᴛᴇ ")
+    await msg.edit("» ʙᴏᴛ ʀᴇsᴛᴀʀᴛᴇᴅ...\n» ɴᴏᴡ ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴛʜɪs  RAGHAV OP ʙᴏᴛ ᴀғᴛᴇʀ 𝟷 ᴍɪɴᴜᴛᴇ ")
     execle(sys.executable, *args, environ)
